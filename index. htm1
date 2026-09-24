@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorawee Sangkaew - Online Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #1e293b;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+        header {
+            border-bottom: 2px solid #334155;
+            padding-bottom: 24px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            color: #38bdf8;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            margin-bottom: 12px;
+        }
+        .address {
+            font-size: 0.9rem;
+            color: #cbd5e1;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.3rem;
+            color: #38bdf8;
+            border-left: 4px solid #38bdf8;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        p, li {
+            color: #cbd5e1;
+            font-size: 0.95rem;
+        }
+        ul {
+            list-style-type: none;
+        }
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        ul li::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #38bdf8;
+        }
+        .item-title {
+            font-weight: bold;
+            color: #f1f5f9;
+        }
+        .item-sub {
+            color: #94a3b8;
+            font-size: 0.85rem;
+            margin-bottom: 5px;
+        }
+        .tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .tag {
+            background-color: #334155;
+            color: #38bdf8;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Sorawee Sangkaew</h1>
+        <div class="subtitle">Digital Film Student & Content Creator</div>
+        <div class="address">📍 Nonthaburi, Thailand</div>
+    </header>
+
+    <section>
+        <h2>Profile Statement</h2>
+        <p>A passionate 2nd-year Digital Film student with a strong dedication to visual storytelling, video editing, and film production. Eager to learn modern media production techniques and committed to crafting impactful visual and audio experiences that convey deep emotion to the audience.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="item">
+            <div class="item-title">Bachelor of Communication Arts (Digital Film)</div>
+            <div class="item-sub">University of the Thai Chamber of Commerce (UTCC) | Currently in 2nd Year</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Work & Project Experience</h2>
+        <ul>
+            <li>
+                <div class="item-title">Digital Content & Short Film Production (Student Projects)</div>
+                <p>Collaborated on student short films and digital content, taking on roles in directing, cinematography, and video editing. Handled sound mixing and post-production workflows.</p>
+            </li>
+            <li>
+                <div class="item-title">Production Assistant & Editing Support</div>
+                <p>Assisted in set management, camera angle setups, and audio setups. Organized footage and edited scenes to align with the required visual mood and tone.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Interests & Hobbies</h2>
+        <div class="tags">
+            <span class="tag">🎬 Cinema & Film Analysis</span>
+            <span class="tag">🎵 Music & Soundscapes</span>
+            <span class="tag">✈️ Travel & Location Scouting</span>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
